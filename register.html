@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label>Name:</label>
+        <input type="text" placeholder="Your Name" />
+      </div>
+      <div>
+        <label>Email:</label>
+        <input type="email" placeholder="Your email" />
+      </div>
+      <div>
+        <label>Phone Number:</label>
+        <input type="number" />
+      </div>
+      <div>
+        <label>Gender:</label>
+        <input type="radio" id="gender1" name="gender" value="Male" />
+        <label for="gender1">Male</label>
+        <input type="radio" id="gender2" name="gender" value="Female" />
+        <label for="gender2">Female</label>
+        <input type="radio" id="gender3" name="gender" value="others" />
+        <label for="gender3">Others</label>
+      </div>
+      <div>
+        <label>Languages:</label>
+        <select name="languages">
+          <option value="Tamil">Tamil</option>
+          <option value="English">English</option>
+          <option value="Malayalam">Malayalam</option>
+          <option value="Hindi">Hindi</option>
+          <option value="Telungu">Telungu</option>
+          <option value="Kannada">Kannada</option>
+          <option value="Arabic">Arabic</option>
+          <option value="French">French</option>
+          <option value="Japanese">Japanese</option>
+        </select>
+      </div>
+      <div>
+        <label>Zip Code:</label>
+        <input type="number" />
+      </div>
+      <div>
+        <label>Password::</label>
+        <input type="password" />
+      </div>
+      <div>
+        <label>About:</label><br />
+        <textarea
+          placeholder="Write about yourself..."
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <button>Register</button>
+    </form>
+  </body>
+</html>
